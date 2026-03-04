@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
 
-        <nav className='flex justify-between items-center px-7 bg-slate-900 text-white'>
+        <nav className='flex justify-between items-center px-7 bg-slate-950 text-white'>
             <ul className='flex items-center gap-8 text-2xl py-4'>
                 <li><Link to='/'>TodoApp</Link></li>
                 <li><Link to='/counter-app'>CounterApp</Link></li>

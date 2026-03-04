@@ -4,8 +4,8 @@ const DisplayUsers = () => {
 
    const {data, error, loading} = useFetchData("https://jsonplaceholder.typicode.com/users")
 
-    if(error) return <h1 className="text-2xl text-red-500">{error}</h1>
-    if(loading) return <h1 className="text-2xl text-green-500">Loading...</h1>
+    if(error) return <h1 className="text-2xl text-red-600">{error}</h1>
+    if(loading) return <h1 className="text-2xl text-green-600">Loading...</h1>
 
     return (
         <div className="px-10">
